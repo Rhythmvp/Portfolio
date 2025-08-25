@@ -42,8 +42,8 @@ export default function Hero({ content }: HeroProps) {
     switch (cmd) {
       case 'resume': {
         const link = document.createElement('a')
-        link.href = '/Rhythm_Gupta_CV.pdf'
-        link.download = '/Rhythm_Gupta_CV.pdf'
+        link.href = '/RHythm Gupta_cv.pdf'
+        link.download = '/RHythm Gupta_cv.pdf'
         document.body.appendChild(link)
         link.click()
         document.body.removeChild(link)
